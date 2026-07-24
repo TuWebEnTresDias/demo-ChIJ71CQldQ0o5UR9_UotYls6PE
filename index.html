@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pride Cafe | Cafetería LGBTQ+ en Buenos Aires desde 2004</title>
+    <meta name="description" content="Pride Cafe: el primer bar diurno LGBTQ+ de Buenos Aires. Cafetería, comidas, tragos y comunidad desde 2004. Av. de Mayo 714, Microcentro Sur.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header fijo -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#hero" class="header__logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyCheHKwoxGayd_w1MOrHh3VpHYMUn_QQh1sk8f_aKtFeYGZB6ex-Pnxo3&s=10" alt="Pride Cafe Logo" class="header__logo-img">
+                <span class="header__logo-text">Pride!</span>
+            </a>
+            
+            <nav class="header__nav" id="mainNav">
+                <ul class="header__nav-list">
+                    <li><a href="#historia" class="header__nav-link">Historia</a></li>
+                    <li><a href="#menu" class="header__nav-link">Menú</a></li>
+                    <li><a href="#galeria" class="header__nav-link">Galería</a></li>
+                    <li><a href="#momentos" class="header__nav-link">Momentos</a></li>
+                    <li><a href="#contacto" class="header__nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <a href="https://wa.me/5491144442959?text=Hola%20Pride%20Cafe!%20Quiero%20hacer%20una%20consulta." class="header__cta" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                WhatsApp
+            </a>
+            
+            <button class="header__hamburger" id="hamburger" aria-label="Menú">
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+                <span class="header__hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3f/27/4a/dsc-2652-largejpg.jpg?w=900&h=-1&s=1" alt="Pride Cafe desde afuera" class="hero__bg-img">
+            <div class="hero__bg-overlay"></div>
+        </div>
+        
+        <div class="hero__content">
+            <div class="hero__rainbow-line"></div>
+            <h1 class="hero__title">
+                <span class="hero__title-line1">Orgullo</span>
+                <span class="hero__title-line2">en cada taza</span>
+            </h1>
+            <p class="hero__subtitle">El primer café del día para la comunidad LGBTQ+ de Buenos Aires. Bienvenido sin vueltas, desde 2004.</p>
+            
+            <div class="hero__ctas">
+                <a href="#menu" class="btn btn--primary">Ver Menú</a>
+                <a href="https://wa.me/5491144442959?text=Hola!%20Quiero%20reservar%20una%20mesa%20en%20Pride%20Cafe." class="btn btn--secondary" target="_blank" rel="noopener">Reservar Mesa</a>
+            </div>
+        </div>
+        
+        <div class="hero__scroll-indicator">
+            <span>Deslizá</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M19 12l-7 7-7-7"></path>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- Introducción / Diferenciales -->
+    <section class="differentials" id="diferenciales">
+        <div class="container">
+            <div class="differentials__grid">
+                <div class="differential" data-animate>
+                    <div class="differential__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="differential__title">Comunidad</h3>
+                    <p class="differential__text">Espacio seguro y celebrado desde el día uno. Cada mesa es una trinchera de amor y pertenencia.</p>
+                </div>
+                
+                <div class="differential" data-animate>
+                    <div class="differential__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <h3 class="differential__title">20+ Años</h3>
+                    <p class="differential__text">21 años de café recién hecho, historias compartidas y un barrio que nos adoptó.</p>
+                </div>
+                
+                <div class="differential" data-animate>
+                    <div class="differential__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="differential__title">Para Todos</h3>
+                    <p class="differential__text">Familias, turistas, vecinos del centro. El café donde todos caben, sin excepción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Historia -->
+    <section class="history" id="historia">
+        <div class="history__container">
+            <div class="history__image" data-animate>
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a2/bd/01/photo1jpg.jpg?w=1000&h=-1&s=1" alt="Pride Cafe fachada" class="history__img">
+                <div class="history__image-badge">
+                    <span class="history__badge-number">2004</span>
+                    <span class="history__badge-text">desde</span>
+                </div>
+            </div>
+            
+            <div class="history__content" data-animate>
+                <span class="section-label">Nuestra Historia</span>
+                <h2 class="history__title">De la noche al día,<br>con orgullo</h2>
+                <p class="history__text">En 2004, Alex Follmann y Rolo Azpeitía abrieron las puertas del primer bar diurno para la comunidad LGBTIQ+ de Buenos Aires. La idea era simple pero revolucionaria: demostrar que somos como todos.</p>
+                <p class="history__text">Hoy, el Pride Cafe es mucho más que un café. Es un punto de encuentro donde las familias toman mate, los turistas descubren el barrio y los vecinos del centro se encuentran entre tazas de café y risas compartidas.</p>
+                <p class="history__text history__text--highlight">Estamos en Av. de Mayo 714, en el corazón del Microcentro Sur, esperándote con la puerta abierta y el café listo.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="menu__header" data-animate>
+                <span class="section-label">Nuestro Menú</span>
+                <h2 class="menu__title">Elegí lo que más te pinte</h2>
+                <p class="menu__subtitle">Café de especialidad, comidas caseras y tragos con onda. Todo hecho con amor (y buenos ingredientes).</p>
+            </div>
+            
+            <!-- Tabs del menú -->
+            <div class="menu__tabs">
+                <button class="menu__tab menu__tab--active" data-tab="cafeteria">Cafetería</button>
+                <button class="menu__tab" data-tab="especiales">Especiales</button>
+                <button class="menu__tab" data-tab="dulces">Dulces</button>
+                <button class="menu__tab" data-tab="tragos">Tragos</button>
+                <button class="menu__tab" data-tab="cervezas">Cervezas y Vinos</button>
+            </div>
+            
+            <!-- Contenido de tabs -->
+            <div class="menu__content">
+                <!-- Cafetería -->
+                <div class="menu__category menu__category--active" id="cafeteria">
+                    <div class="menu__grid">
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Café con Leche / Latte</h3>
+                                    <span class="menu__item-price">desde $5.000</span>
+                                </div>
+                                <p class="menu__item-desc">Nuestro café de autor, con leche texturizada o al estilo clásico porteño.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Café Expresso / Ristretto</h3>
+                                    <span class="menu__item-price">desde $3.100</span>
+                                </div>
+                                <p class="menu__item-desc">Intenso, aromático, perfecto para arrancar el día con energía.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Pride Café</h3>
+                                    <span class="menu__item-price">$6.100</span>
+                                </div>
+                                <p class="menu__item-desc">Café, miel y crema. Nuestro sello distintivo, dulce y reconfortante.</p>
+                                <span class="menu__item-tag">⭐ Signature</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Condesa</h3>
+                                    <span class="menu__item-price">$6.100</span>
+                                </div>
+                                <p class="menu__item-desc">Café, leche condensada y chocolate amargo. ¡NUEVO!</p>
+                                <span class="menu__item-tag menu__item-tag--new">✨ Nuevo</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Café Tonic</h3>
+                                    <span class="menu__item-price">$5.000</span>
+                                </div>
+                                <p class="menu__item-desc">Café + tónica + hielo. Refrescante y perfecto para los días de calor.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Bombón</h3>
+                                    <span class="menu__item-price">$6.100</span>
+                                </div>
+                                <p class="menu__item-desc">Café, dulce de leche, crema y chocolate. Indulgencia pura.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Especiales -->
+                <div class="menu__category" id="especiales">
+                    <div class="menu__grid">
+                        <div class="menu__item menu__item--featured" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Hamburguesa Pride</h3>
+                                    <span class="menu__item-price">$12.015</span>
+                                </div>
+                                <p class="menu__item-desc">Hamburguesa casera de ternera rellena con queso, lechuga, tomate, cebolla caramelizada, pepinillos y salsa guacamole. Con papas rústicas.</p>
+                                <span class="menu__item-tag">⭐ La favorita</span>
+                            </div>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ6ptGNxIPsLJ4OoESg8kvGdYjlqhj8kd-enkunBX2B5UClt3ML8v7IHRi6xA7AQg_5vSiDCOBr8ZHrBkVdrLFBbAY6TV4GVbemRe-KUfZ4fO8uXCFq8EapljcEPK8cPUDeUey=s1360-w1360-h1020-rw" alt="Hamburguesa Pride" class="menu__item-img">
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Ensalada Clásica</h3>
+                                    <span class="menu__item-price">$10.980</span>
+                                </div>
+                                <p class="menu__item-desc">Pollo grillado con mix de verdes, queso muzzarella, semillas y vinagreta de naranja.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Wrap Pollo</h3>
+                                    <span class="menu__item-price">$10.500</span>
+                                </div>
+                                <p class="menu__item-desc">Tortilla de trigo con queso crema y ciboulette, relleno de pollo salteado con especias. Con vegetales grillados y papas rústicas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Desayuno Griego</h3>
+                                    <span class="menu__item-price">$8.910</span>
+                                </div>
+                                <p class="menu__item-desc">Yogurt Griego casero, frutas de estación, frutos secos, miel y exprimido de naranjas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Budín de Pistacho</h3>
+                                    <span class="menu__item-price">$4.680</span>
+                                </div>
+                                <p class="menu__item-desc">Budín casero de pistacho y crema de maní, con cobertura glaseada.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Medialuna Rellena</h3>
+                                    <span class="menu__item-price">$1.530</span>
+                                </div>
+                                <p class="menu__item-desc">Medialuna rellena de dulce de leche con cobertura de chocolate y maní.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Dulces -->
+                <div class="menu__category" id="dulces">
+                    <div class="menu__grid">
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Torta Pride</h3>
+                                    <span class="menu__item-price">$7.900</span>
+                                </div>
+                                <p class="menu__item-desc">Nuestra torta insignia. Siendo Buenos Aires, no te la podes perder.</p>
+                                <span class="menu__item-tag">⭐ Signature</span>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Lemon Pie</h3>
+                                    <span class="menu__item-price">$7.700</span>
+                                </div>
+                                <p class="menu__item-desc">Clásico americano con limón real. Ácido, dulce y perfecto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Brownie</h3>
+                                    <span class="menu__item-price">$7.700</span>
+                                </div>
+                                <p class="menu__item-desc">Denso, chocolatoso, con nueces. La tentación que no te podes negar.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Cookie Bombón Vegana</h3>
+                                    <span class="menu__item-price">$3.600</span>
+                                </div>
+                                <p class="menu__item-desc">Cookie vegana de vainilla con chips de chocolate negro y bombón Águila.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Tarta de Manzana</h3>
+                                    <span class="menu__item-price">$5.500</span>
+                                </div>
+                                <p class="menu__item-desc">Sin gluten. Manzana, canela y amor. Para todos.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Alfajor SIN TACC</h3>
+                                    <span class="menu__item-price">$3.500</span>
+                                </div>
+                                <p class="menu__item-desc">Alfajor sin gluten, relleno de dulce de leche y cubierto de chocolate amargo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tragos -->
+                <div class="menu__category" id="tragos">
+                    <div class="menu__grid">
+                        <div class="menu__item menu__item--featured" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Mojito</h3>
+                                    <span class="menu__item-price">$11.500</span>
+                                </div>
+                                <p class="menu__item-desc">Ron Havana Especial, soda, limón, azúcar y menta. El clásico que nunca falla.</p>
+                            </div>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkho9YvYtk6h7tsKSuZNG_0hACOuQEIEY9c3TBJrCggSFoI62vzPeFEPxpgL2OBka0SdWZ_Ivo0M_k6vnsWHA9qvB580L_Jp5eO-aOASEaA8yGS481xUTBFr3ijeuIHR1KqsAdK=s1360-w1360-h1020-rw" alt="Pride's beer" class="menu__item-img">
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Aperol Spritz</h3>
+                                    <span class="menu__item-price">$9.900</span>
+                                </div>
+                                <p class="menu__item-desc">Aperol, espumante extra dulce, soda y rodaja de naranja. Para la tarde.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Gin Tonic (Limón)</h3>
+                                    <span class="menu__item-price">$8.800</span>
+                                </div>
+                                <p class="menu__item-desc">London Dry Gin y limón. Simple y perfecto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Caipirinha</h3>
+                                    <span class="menu__item-price">$11.000</span>
+                                </div>
+                                <p class="menu__item-desc">Cachaça Brasileña Velho Barreiro, azúcar y limón.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Fernet Cola</h3>
+                                    <span class="menu__item-price">$8.800</span>
+                                </div>
+                                <p class="menu__item-desc">Fernet Branca con Coca Cola. El trago de los pibes.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Tinto de Verano</h3>
+                                    <span class="menu__item-price">$8.300</span>
+                                </div>
+                                <p class="menu__item-desc">Vino Malbec, exprimido de limón o de naranjas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cervezas y Vinos -->
+                <div class="menu__category" id="cervezas">
+                    <div class="menu__grid">
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Quilmes Lata 473ml</h3>
+                                    <span class="menu__item-price">$3.800</span>
+                                </div>
+                                <p class="menu__item-desc">La rubia argentina por excelencia. Siempre bien fría.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Stella Blanche 473ml</h3>
+                                    <span class="menu__item-price">$4.500</span>
+                                </div>
+                                <p class="menu__item-desc">Premium lager, refrescante y elegante.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">San Telmo Malbec</h3>
+                                    <span class="menu__item-price">$8.000</span>
+                                </div>
+                                <p class="menu__item-desc">Malbec de aroma frutado y delicado sabor. Cópalo tranquilo.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Luigi Bosca Malbec</h3>
+                                    <span class="menu__item-price">$27.500</span>
+                                </div>
+                                <p class="menu__item-desc">Tinto de autor, intenso y con carácter. Para ocasiones especiales.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Espumante Renaissance</h3>
+                                    <span class="menu__item-price">$12.000</span>
+                                </div>
+                                <p class="menu__item-desc">Extra Brut, para brindar con estilo.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="menu__item" data-animate>
+                            <div class="menu__item-content">
+                                <div class="menu__item-header">
+                                    <h3 class="menu__item-name">Copa de Vino</h3>
+                                    <span class="menu__item-price">desde $4.000</span>
+                                </div>
+                                <p class="menu__item-desc">Malbec o Chardonnay. Elegí tu favorito.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu__footer" data-animate>
+                <p class="menu__note">Todos los precios son en pesos argentinos. Consultá por opciones vegetarianas, veganas y sin TACC.</p>
+                <a href="https://wa.me/5491144442959?text=Hola!%20Quiero%20hacer%20un%20pedido%20para%20llevar." class="btn btn--primary" target="_blank" rel="noopener">Pedí para llevar</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Galería -->
+    <section class="gallery" id="galeria">
+        <div class="container">
+            <div class="gallery__header" data-animate>
+                <span class="section-label">Nuestro Espacio</span>
+                <h2 class="gallery__title">Un pedacito de Buenos Aires</h2>
+                <p class="gallery__subtitle">Mesas sobre la vereda, bougainvillea trepada y la mejor vibra del Microcentro.</p>
+            </div>
+            
+            <div class="gallery__grid">
+                <div class="gallery__item gallery__item--large" data-animate>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/31/fa/72/pride-cafe.jpg?w=1000&h=-1&s=1" alt="Interior Pride Cafe" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>Interior acogedor</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item" data-animate>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/31/fa/6c/pride-cafe.jpg?w=1000&h=-1&s=1" alt="Desayuno Pride Cafe" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>Desayunos con onda</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item" data-animate>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a2/bd/01/photo1jpg.jpg?w=1000&h=-1&s=1" alt="Fachada Pride Cafe" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>La fachada icónica</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item" data-animate>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh37_LudVYipxyo4yUMu23pGWy0cFOTncbYq3CkNdbOcZui-pET5s7GxFv&s=10" alt="Terraza Pride Cafe" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>Terraza con vista</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item gallery__item--wide" data-animate>
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn-ye-0nbTiCTqY6IJfYFJ05sbjmO_dOsdVSzndUmFECJbdEtbAeKLoZ9z4E1Mdu2faCF6FLuFBOBuWq_JiuhbW_aDdwdJyvXmbj-yiFAVCBD1maRm7Cip_g5atBMpko7nVY1bS=s1360-w1360-h1020-rw" alt="Comida Pride Cafe" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>Comida casera</span>
+                    </div>
+                </div>
+                
+                <div class="gallery__item" data-animate>
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkHcBjdU9JPyDJIpdQNEV6B_AgM7aUW6bM4BLKnHcIT-uo7QMK68UcTom7ECnai4ezh9zy5ej61udEeBPcv0LwSWJBF6V_weX3SIqWbJVt4wZ1u35bV14xY9r5Al_9WwVb_QuwTIQ=s1360-w1360-h1020-rw" alt="Café Pride" class="gallery__img" loading="lazy">
+                    <div class="gallery__item-overlay">
+                        <span>Café de autor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonios -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <div class="testimonials__header" data-animate>
+                <span class="section-label">Lo que dicen</span>
+                <h2 class="testimonials__title">Nuestros vecinos hablan</h2>
+                <div class="testimonials__rating">
+                    <span class="testimonials__rating-number">4.3</span>
+                    <div class="testimonials__stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" opacity="0.3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <span class="testimonials__rating-text">basado en 1.400 reseñas</span>
+                </div>
+            </div>
+            
+            <div class="testimonials__grid">
+                <div class="testimonial" data-animate>
+                    <div class="testimonial__header">
+                        <div class="testimonial__avatar">MG</div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">María G.</h4>
+                            <span class="testimonial__date">hace 2 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial__text">Fui un miércoles a las 18hs y estaba muy tranquilo. El mozo nos atendió con muchísima simpatía. Recomiendo el Café Pride, tiene miel. Los precios son accesibles y el lugar es acogedor.</p>
+                </div>
+                
+                <div class="testimonial" data-animate>
+                    <div class="testimonial__header">
+                        <div class="testimonial__avatar">CR</div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Carlos R.</h4>
+                            <span class="testimonial__date">hace 1 mes</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial__text">Visité esta cafetería y me encantó el café y el ambiente tan acogedor. La comida y demás fresca y rica. El Pride Café con miel es una delicia.</p>
+                </div>
+                
+                <div class="testimonial" data-animate>
+                    <div class="testimonial__header">
+                        <div class="testimonial__avatar">LP</div>
+                        <div class="testimonial__info">
+                            <h4 class="testimonial__name">Laura P.</h4>
+                            <span class="testimonial__date">hace 3 semanas</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l-6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial__text">El lugar es lindo y la merienda estuvo bien. Los precios son más acordes a la realidad económica argentina. Me gustó la vibra inclusiva del lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Momentos de uso -->
+    <section class="moments" id="momentos">
+        <div class="container">
+            <div class="moments__header" data-animate>
+                <span class="section-label">Para cada momento</span>
+                <h2 class="moments__title">¿Cuándo venís?</h2>
+            </div>
+            
+            <div class="moments__grid">
+                <div class="moment" data-animate>
+                    <div class="moment__image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/31/fa/6c/pride-cafe.jpg?w=1000&h=-1&s=1" alt="Desayuno en Pride Cafe" class="moment__img" loading="lazy">
+                    </div>
+                    <div class="moment__content">
+                        <h3 class="moment__title">El desayuno porteño</h3>
+                        <p class="moment__text">Arrancá el día con un café con leche y medialunas. Abrí los ojos con el mejor café del Microcentro.</p>
+                        <div class="moment__schedule">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span>Martes a Domingo, 12:00 - 16:00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="moment" data-animate>
+                    <div class="moment__image">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkho9YvYtk6h7tsKSuZNG_0hACOuQEIEY9c3TBJrCggSFoI62vzPeFEPxpgL2OBka0SdWZ_Ivo0M_k6vnsWHA9qvB580L_Jp5eO-aOASEaA8yGS481xUTBFr3ijeuIHR1KqsAdK=s1360-w1360-h1020-rw" alt="Tragos en Pride Cafe" class="moment__img" loading="lazy">
+                    </div>
+                    <div class="moment__content">
+                        <h3 class="moment__title">La previa con amigos</h3>
+                        <p class="moment__text">Vermouth, gin tonic o un mojito. La terraza es el mejor punto de partida antes de salir.</p>
+                        <div class="moment__schedule">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span>Viernes y Sábado, hasta la madrugada</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="moment" data-animate>
+                    <div class="moment__image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/3f/27/4a/dsc-2652-largejpg.jpg?w=900&h=-1&s=1" alt="Pride Cafe de noche" class="moment__img" loading="lazy">
+                    </div>
+                    <div class="moment__content">
+                        <h3 class="moment__title">La cena especial</h3>
+                        <p class="moment__text">Hamburguesa Pride, ensalada o una picada para compartir. Lugar perfecto para encontrarse.</p>
+                        <div class="moment__schedule">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                            <span> Todos los días, de 18:00 en adelante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Formulario de contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact__grid">
+                <div class="contact__info" data-animate>
+                    <span class="section-label">Contacto</span>
+                    <h2 class="contact__title">¿Tenés alguna consulta?</h2>
+                    <p class="contact__text">Escribinos por WhatsApp y te respondemos al toque. También podés reservar mesa o hacer un pedido para llevar.</p>
+                    
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Av. de Mayo 714, C1066 Cdad. Autónoma de Buenos Aires</span>
+                        </div>
+                        
+                        <div class="contact__detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:+5491144442959">+54 9 11 4444-2959</a>
+                        </div>
+                        
+                        <div class="contact__detail">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            <div>
+                                <p><strong>Lunes:</strong> Cerrado</p>
+                                <p><strong>Martes - Jueves:</strong> 12:00 - 20:00</p>
+                                <p><strong>Viernes:</strong> 12:00 - 24:00</p>
+                                <p><strong>Sábado:</strong> 13:00 - 2:00</p>
+                                <p><strong>Domingo:</strong> 12:00 - 22:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__social">
+                        <a href="https://www.instagram.com/cafepride" class="contact__social-link" target="_blank" rel="noopener">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            Seguinos en Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact__form-wrapper" data-animate>
+                    <form class="contact__form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Tu nombre</label>
+                            <input type="text" id="name" name="name" placeholder="¿Cómo te llamás?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Tu teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Para contactarte" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">¿Qué necesitás?</label>
+                            <select id="message" name="message" required>
+                                <option value="" disabled selected>Elegí una opción</option>
+                                <option value="reserva">Reservar mesa</option>
+                                <option value="pedido">Pedido para llevar</option>
+                                <option value="consulta">Consulta general</option>
+                                <option value="evento">Organizar un evento</option>
+                                <option value="otro">Otra cosa</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="details">Detalles (opcional)</label>
+                            <textarea id="details" name="details" placeholder="Cantidad de personas, fecha, hora, etc." rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            Enviar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe
+                src="https://maps.google.com/maps?q=Av.+de+Mayo+714+Microcentro+Sur+Buenos+Aires&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ubicación de Pride Cafe">
+            </iframe>
+        </div>
+        
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__grid">
+                    <div class="footer__brand">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyCheHKwoxGayd_w1MOrHh3VpHYMUn_QQh1sk8f_aKtFeYGZB6ex-Pnxo3&s=10" alt="Pride Cafe Logo" class="footer__logo">
+                        <p class="footer__tagline">Orgullo en cada taza desde 2004.</p>
+                        <div class="footer__rainbow-line"></div>
+                    </div>
+                    
+                    <div class="footer__nav">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#historia">Historia</a></li>
+                            <li><a href="#menu">Menú</a></li>
+                            <li><a href="#galeria">Galería</a></li>
+                            <li><a href="#momentos">Momentos</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer__contact">
+                        <h4>Contacto</h4>
+                        <p>Av. de Mayo 714</p>
+                        <p>C1066 Cdad. Autónoma de Buenos Aires</p>
+                        <p><a href="tel:+5491144442959">+54 9 11 4444-2959</a></p>
+                    </div>
+                    
+                    <div class="footer__hours">
+                        <h4>Horarios</h4>
+                        <p><strong>Lunes:</strong> Cerrado</p>
+                        <p><strong>Martes - Jueves:</strong> 12:00 - 20:00</p>
+                        <p><strong>Viernes:</strong> 12:00 - 24:00</p>
+                        <p><strong>Sábado:</strong> 13:00 - 2:00</p>
+                        <p><strong>Domingo:</strong> 12:00 - 22:00</p>
+                    </div>
+                </div>
+                
+                <div class="footer__bottom">
+                    <p>&copy; 2024 Pride Cafe. Todos los derechos reservados.</p>
+                    <p class="footer__credit">Diseñado con <span class="footer__heart">❤️</span> en Buenos Aires</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5491144442959?text=Hola%20Pride%20Cafe!%20Tengo%20una%20consulta." class="whatsapp-float" target="_blank" rel="noopener" id="whatsappFloat">
+        <svg viewBox="0 0 24 24" fill="white" width="28" height="28">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
