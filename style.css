@@ -523,7 +523,7 @@ ul {
    HISTORIA
    =========================== */
 .history {
-    padding: var(--section-padding);
+    padding: 30px;
 }
 
 .history__container {
